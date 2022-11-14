@@ -1,0 +1,19 @@
+plugins {
+	id 'antlr'
+	id 'java'
+}
+
+group = 'at.schrer'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	antlr "org.antlr:antlr4:4.5.3"
+
+	implementation 'org.apache.commons:commons-lang3:3.12.0'
+	implementation 'org.apache.commons:commons-collections4:4.4'
+}
